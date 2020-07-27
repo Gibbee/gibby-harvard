@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Advanced Search</title>
+		<link rel="stylesheet" type="text/css" href="css/project0.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	</head>
+
+	<body>
+		
+		
+		
+		<div class="advancedSearch">
+			<div class="advancedLogo">
+				<img id="googleLogo" src="images/googlelogo_color_272x92dp.png" alt="google logo">
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a class="home" href="index.html">Home</a></li>
+				</ul>
+			</div>
+
+			<div class="advanceH1">
+				<h1 class="advanceHead">Advanced Search</h1>
+			</div>
+			<form action="https://www.google.com/advanced_search" method="get">
+				<div class="content">
+					<h3 class="title">Find pages with....</h3>
+					
+					<div class="row entries">
+						<div class="col-2">
+							<label for="all">all these words:</label>
+						</div>
+						<div class="col-4">
+							<input type="text" id="all" name="q">		
+						</div>
+					</div>
+
+					<div class="row entries">
+						<div class="col-2">
+							<label for="exact">this exact word or phrase:</label> 
+						</div>
+						<div class="col-4">
+							<input type="text" id="exact" name="as_epq">
+						</div>
+					</div>
+
+					<div class="row entries">
+						<div class="col-2">
+							<label for="any">any of these words:</label> 
+						</div>
+						<div class="col-4">
+							<input type="text" id="any" name="as_oq">
+						</div>
+					</div>
+
+					<div class="row entries">
+						<div class="col-2">
+							<label for="none">none of these words:</label> 
+						</div>
+						<div class="col-4">
+							<input type="text" id="none" name="as_eq">
+						</div>
+					</div>	
+
+					<input type="submit" name="search" id="advSub" value="Advanced Search">
+						
+	
+				</div>
+			</form>
+		</div>			
+	</body>
+</html>

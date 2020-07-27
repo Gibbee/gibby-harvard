@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("https://use.typekit.net/rfr0ztb.css");
+
+
+body
+{
+	overflow: hidden;
+}
+
+.mainSearch
+{
+	margin: 0;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#advSub
+{
+	color: white;
+	font-size: 12px;
+	padding: 6px 12px;
+}
+
+input[type=text]
+{
+	border: none;
+	width: 460px;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus
+{
+	outline: none;
+}
+
+input[type=text]:hover
+{
+	outline: none;
+}
+
+.input-container
+{
+	padding: 10px;
+	border-style: solid;
+	border-width: .125px;
+	border-color: #cacaca;
+	border-radius: 24px;
+}
+
+.input-container:focus
+{
+	box-shadow: 1px 1px 4px 1px rgba(125, 125, 125, .25);
+}
+
+.input-container:hover
+{
+	box-shadow: 1px 1px 4px 1px rgba(125, 125, 125, .25);
+}
+
+.submit
+{
+	margin: 0;
+	position: relative;
+	left: 24%;
+	padding-top: 20px;
+}
+
+input[name=search]
+{
+	background: #5691fd;
+	position: relative;
+	left: 52%;
+	margin-top: 10px;
+}
+
+
+
+input[type=submit]
+{
+	color: #686868;
+	border: none;
+	padding: 10px 16px;
+	border-radius: 4px;
+	margin-right: 6px;
+}
+
+input[type=submit]:focus
+{
+	outline: none;
+	border-style: solid;
+	border-width: .25px;
+	border-color: #afafaf;
+}
+
+input[type=submit]:hover
+{
+	outline: none;
+	border-style: solid;
+	border-width: .25px;
+	border-color: #afafaf;
+}
+
+#logoHome
+{
+	margin: 0;
+	position: relative;
+	left: 25%;
+	padding-bottom: 20px;
+}
+
+.icon
+{
+	color: #b1b1b1;
+	padding: 3px;
+} 
+
+button
+{
+	border: none;
+	background: none;
+	font-size: 18px;
+	color: #6f98e4;
+}
+
+button:focus
+{
+	outline: none;
+	border: none;
+}
+
+.fa
+{
+	padding: 0;
+}
+
+.nav
+{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	margin-top: 16px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+li
+{
+	display: inline-flex;
+	padding: 8px;
+}
+
+.home:hover
+{
+	text-decoration: none;
+	color: #646464;
+}
+
+a
+{
+	text-decoration: none;
+	color: #646464;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #646464;
+}
+
+.images
+{
+	margin: 0;
+	position: absolute;
+	left: 40%;
+	top: 51%;
+}
+
+.advanceH1
+{
+	border-bottom: 1px solid #ececec;
+}
+
+.advanceHead
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.125rem;
+	color: red;
+	width: 80%;
+	margin-top: 2px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	position: absolute;
+	top: 76px; 
+}
+
+h2
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	color: #5f90eb;
+}
+
+.title
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #393939;
+	margin-top: 30px;
+}
+
+label
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	color: #393939;
+}
+
+
+.advancedLogo
+{
+	background-color: #ececec;
+	margin: -16px -20px 0 -20px;
+	padding: 30px 0 10px 30px;
+}
+
+#googleLogo
+{
+	height: 30px;
+}
+
+.content
+{
+	padding: 6px 0 0 30px;
+}
+
+
+.entries
+{
+	padding-top: 10px;
+}
+
+#all, #exact, #any, #none
+{
+	border-style: solid;
+	border-width: .25px;
+	border-color: #afafaf;
+	width: 600px;
+	position: absolute;
+}
+
+.col-2
+{
+	position: absolute;
+}
+
+.col-4
+{
+	position: absolute;
+}
